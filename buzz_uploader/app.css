@@ -1,0 +1,173 @@
+/* BuzzUploader TUI Styling */
+
+/* Main app styling */
+#main {
+    background: #1f1f1f;
+}
+
+/* Directory tree styling */
+#dir-tree {
+    width: 30%;
+    background: #252525;
+    color: #d0d0d0;
+    border: solid #3a3a3a;
+    padding: 0 1;
+}
+
+/* File panel styling */
+#file-panel {
+    width: 70%;
+    background: #252525;
+    border: solid #3a3a3a;
+}
+
+/* Search bar styling */
+#search-bar {
+    height: 3;
+    margin: 0 0 1 0;
+    padding: 0 1;
+    background: #2a2a2a;
+}
+
+#search-input {
+    background: #333333;
+    color: #d0d0d0;
+    border: solid #444444;
+}
+
+#search-button {
+    width: 4;
+    background: #444444;
+    color: #d0d0d0;
+}
+
+/* File table styling */
+#file-table {
+    background: #252525;
+    color: #d0d0d0;
+}
+
+/* Make sure all columns are visible */
+#file-table .datatable--header-cell,
+#file-table .datatable--cell {
+    padding: 0 1;
+}
+
+/* We'll handle the Selected column styling in Python code */
+
+/* Status bar styling */
+#status-bar {
+    height: 1;
+    background: #2a2a2a;
+    color: #a0a0a0;
+    padding: 0 1;
+}
+
+#selection-status {
+    width: 1fr;
+    text-align: left;
+}
+
+#auth-status {
+    width: auto;
+    text-align: right;
+}
+
+.authenticated {
+    color: #50fa7b;
+}
+
+.unauthenticated {
+    color: #ff5555;
+}
+
+/* Action buttons styling */
+#actions {
+    height: 3;
+    background: #2a2a2a;
+    padding: 0 1;
+}
+
+Button {
+    margin: 0 1 0 0;
+}
+
+Button.primary {
+    background: #6272a4;
+    color: #f8f8f2;
+}
+
+Button:hover {
+    background: #656980;
+}
+
+Button.default {
+    background: #44475a;
+    color: #f8f8f2;
+}
+
+/* Settings screen styling */
+#settings-container {
+    width: 60;
+    height: 30;
+    background: #252525;
+    border: solid #3a3a3a;
+    margin: 2 0;
+    padding: 1 2;
+}
+
+#settings-title {
+    text-align: center;
+    background: #2a2a2a;
+    color: #f8f8f2;
+    padding: 1;
+    margin-bottom: 1;
+}
+
+#settings-form {
+    margin: 1 0;
+}
+
+#settings-buttons {
+    margin-top: 2;
+}
+
+/* Upload progress screen styling */
+#upload-container {
+    width: 70;
+    height: 40;
+    background: #252525;
+    border: solid #3a3a3a;
+    margin: 2 0;
+    padding: 1 2;
+}
+
+#upload-title {
+    text-align: center;
+    background: #2a2a2a;
+    color: #f8f8f2;
+    padding: 1;
+    margin-bottom: 1;
+}
+
+#upload-status {
+    margin: 1 0;
+    text-align: center;
+}
+
+#upload-progress {
+    margin: 1 0;
+    text-align: center;
+    color: #8be9fd;
+}
+
+#results-container {
+    height: 1fr;
+    margin: 1 0;
+    border: solid #3a3a3a;
+}
+
+#results-table {
+    background: #2a2a2a;
+    color: #d0d0d0;
+}
