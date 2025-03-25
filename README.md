@@ -155,7 +155,7 @@ BuzzUploader supports all the upload options provided by the BuzzHeavier API:
 | Location | Upload to a specific storage location | Enter Location ID in Settings |
 | Notes | Add notes to uploads | Enter notes in Settings |
 
-All these options can be configured in the Settings screen (press `s` to access).
+All these options can be configured in the Settings screen (press `o` to access).
 
 ### Clipboard Functionality
 
