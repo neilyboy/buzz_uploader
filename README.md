@@ -78,15 +78,26 @@ pip install "buzz-uploader[clipboard]"
 
 ### Starting the Application
 
+There are several ways to run BuzzUploader:
+
+#### Using the installed package
 ```bash
 buzz-uploader
 ```
 
-Or if installed from source:
-
+#### Using the module directly
 ```bash
 python -m buzz_uploader
 ```
+
+#### Using the launcher script
+The repository includes a convenient launcher script (`run.py`) that automatically checks and installs dependencies if needed:
+
+```bash
+python run.py
+```
+
+This is especially useful for first-time users or when sharing the application with others who may not have all dependencies installed.
 
 ### Keyboard Shortcuts
 
@@ -201,6 +212,7 @@ buzz-uploader/
 │   ├── __main__.py        # Entry point for the application
 │   ├── app.py             # Main application logic
 │   └── app.css            # Textual CSS styling
+├── run.py                 # Launcher script with dependency checking
 ├── setup.py               # Package setup configuration
 ├── requirements.txt       # Dependencies list
 └── README.md              # Documentation
