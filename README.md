@@ -47,7 +47,7 @@ A slick terminal-based file uploader for BuzzHeavier with a modern TUI (Terminal
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/buzz-uploader.git
+   git clone https://github.com/neilyboy/buzz-uploader.git
    cd buzz-uploader
    ```
 
