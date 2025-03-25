@@ -2,7 +2,9 @@
 
 A slick terminal-based file uploader for BuzzHeavier with a modern TUI (Terminal User Interface) inspired by [Yazi](https://github.com/sxyazi/yazi).
 
-![BuzzUploader Screenshot](https://example.com/screenshot.png)
+![buzz_uploader_main](https://github.com/user-attachments/assets/84e56458-9114-4e55-86ca-760c4cfbf2b5)
+
+![buzz_uploader_upload](https://github.com/user-attachments/assets/0ba35622-9e84-4015-9043-a57dc51a9203)
 
 ## Features
 
