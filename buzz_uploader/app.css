@@ -133,13 +133,11 @@ Button.default {
 }
 
 /* Upload progress screen styling */
-#upload-container {
-    width: 70;
-    height: 40;
+#main-upload-screen {
     background: #252525;
     border: solid #3a3a3a;
-    margin: 2 0;
     padding: 1 2;
+    margin: 1 1;
 }
 
 #upload-title {
@@ -148,6 +146,27 @@ Button.default {
     color: #f8f8f2;
     padding: 1;
     margin-bottom: 1;
+}
+
+.full-width {
+    width: 100%;
+    min-width: 100%;
+}
+
+.spacer {
+    width: 1fr;
+    height: 1;
+}
+
+#results-container {
+    margin: 1 0;
+    height: auto;
+    width: 100%;
+}
+
+#results-table {
+    width: 100%;
+    min-width: 100%;
 }
 
 #upload-status {

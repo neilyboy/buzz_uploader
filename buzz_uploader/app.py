@@ -283,14 +283,17 @@ class UploadProgressScreen(Screen):
         # Get the total number of files for initial display
         total_files = len(self.upload_files)
         
-        with Container(id="upload-container"):
+        # Main container for the entire screen content
+        with Container(id="main-upload-screen"):
             yield Label("Uploading Files to BuzzHeavier", id="upload-title")
             yield Static("Preparing to upload...", id="upload-status")
             yield Static(f"0 / {total_files}", id="upload-progress")
             
+            # Results table with full width
             with Container(id="results-container"):
                 yield DataTable(id="results-table")
             
+            # Button container at the bottom
             with Horizontal(id="button-container"):
                 yield Button("Copy URLs", variant="success", id="copy-button", disabled=True)
                 yield Button("Close", variant="primary", id="close-button")
@@ -305,6 +308,8 @@ class UploadProgressScreen(Screen):
         # Set up the results table
         table = self.query_one("#results-table", DataTable)
         table.add_columns("File", "Status", "Message")
+        
+        # We'll adjust the column widths after data is loaded
         
         # Update the status display with the file count
         total_files = len(self.upload_files)
