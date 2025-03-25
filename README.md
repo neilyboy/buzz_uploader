@@ -117,7 +117,7 @@ This is especially useful for first-time users or when sharing the application w
 
 - **Interface Controls**
   - `q` or `Esc`: Quit the application or close current screen
-  - `s`: Open settings screen
+  - `o`: Open settings screen
   - `/`: Focus the search box
   - `r`: Refresh the current directory
 
@@ -140,7 +140,7 @@ To authenticate with BuzzHeavier, you need to provide your API key (Account ID).
    export BUZZHEAVIER_API_KEY="your_account_id"
    ```
 
-2. Enter your API key in the Settings screen (press `s` to access)
+2. Enter your API key in the Settings screen (press `o` to access)
 
 Your API key will be saved for future sessions once entered in the Settings screen.
 
