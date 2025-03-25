@@ -108,7 +108,7 @@ This is especially useful for first-time users or when sharing the application w
   - `Backspace`: Go to parent directory
 
 - **File Operations**
-  - `Space`: Select/deselect the highlighted file
+  - `x`: Select/deselect the highlighted file
   - `a`: Select all files in the current directory
   - `c`: Clear all selections
   - `u`: Upload selected files
@@ -122,7 +122,7 @@ This is especially useful for first-time users or when sharing the application w
 ### Upload Process
 
 1. Navigate to the directory containing files you want to upload
-2. Select files using `Space` or select all with `a`
+2. Select files using `x` or select all with `a`
 3. Press `u` to start the upload process
 4. The upload progress screen will show real-time status of each file
 5. When complete, you can:
